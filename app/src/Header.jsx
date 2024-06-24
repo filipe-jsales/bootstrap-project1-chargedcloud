@@ -1,18 +1,11 @@
-function Header(){
+import Navbar from "./components/inc/Navbar";
 
-    return(
-        <header>
-            <h1>My React App</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </nav>
-        </header>
-    );
+function Header() {
+  return (
+    <header>
+      <Navbar/>
+    </header>
+  );
 }
 
-export default Header
+export default Header;

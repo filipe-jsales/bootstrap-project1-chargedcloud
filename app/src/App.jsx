@@ -1,8 +1,12 @@
 import Header from './Header'
+import Home from './components/pages/Home'
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Home />
+    </div>
   )
 }
 
